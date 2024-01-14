@@ -17,7 +17,7 @@ Aby uruchomić projekt należy:
 Zgodnie z wytycznymi w pdfie `Redis 1.1 zadania` dostępnym na e-lea, utworzony został mechanizm do wprowadzania danych o uczelniach, a także do głosowania na te uczelnie.
 <br/>
 <br/>
-Aplikacja została napisana w języku JavaScript, z wykorzystaniem paczki express i biblioteki redis, a także redis-om. Do testowania endpointów najlepiej użyć aplikacji Postman.
+Aplikacja została napisana w języku JavaScript, z wykorzystaniem paczki express i biblioteki redis, a także redis-om. Do testowania endpointów najlepiej użyć aplikacji Postman. Kolekcja Postman jest dostępna pod adresem: https://api.postman.com/collections/17393864-7c80c85f-dfc8-4ad4-be04-a280a6101eb7?access_key=PMAT-01HM4HRZDJAEMHX4YYSYHKDG09
 <br/>
 <br/>
 W celu spełnienia wymagań projektu, utworzone zostało 6 endpointów:
