@@ -31,6 +31,7 @@ W celu spełnienia wymagań projektu, utworzone zostało 6 endpointów:
 }
 ```
 Po dodaniu uczelni, automatycznie ustawiany jest jej wynik we właściwości `score` na 0.
+<br/>
 3. `GET /university/:id` - zwraca informacje o uczelni o podanym id.<br/>
 np: `GET /university/1` zwróci informacje o uczelni o id `1` (jeśli taka istnieje):
 ```json
