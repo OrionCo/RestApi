@@ -4,7 +4,8 @@ import {createClient} from "redis";
 const universitySchema = new Schema('university', {
     "name": {
         "type": "string",
-        "required": true
+        "required": true,
+        "unique": true,
     },
     "type": {
         "type": "string",
@@ -14,6 +15,10 @@ const universitySchema = new Schema('university', {
         "type": "string",
         "required": true
     },
+    "score": {
+        "type": "number",
+        "default": 0
+    }
 });
 
 const redis = createClient();
