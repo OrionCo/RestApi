@@ -51,6 +51,13 @@ universityRouter.put('/:id', async (req, res) => {
 })
 
 universityRouter.delete('/:id', async (req, res) => {
+    let university = await universityRepository.fetch(req.params.id);
+
+    if(!university.name) {
+        res.status(404).send('University with given id not found');
+        return;
+    }
+
     await universityRepository.remove(req.params.id);
     res.type('application/json')
     res.send('OK');
